@@ -1,0 +1,28 @@
+{
+    "name": "maxtc/smsru",
+    "description": "PHP-класс для работы с api сервиса [sms.ru](http://sms.ru)",
+    "type": "library",
+    "keywords": [
+        "sms",
+        "sms.ru",
+        "api"
+    ],
+    "homepage": "https://github.com/maxtc/smsru",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "maxtc",
+            "email": "m8911111@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maxtc\\SmsRu\\": ""
+        }
+    }
+}
