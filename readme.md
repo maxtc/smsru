@@ -1,4 +1,4 @@
-# sms_ru
+# smsru
 
 PHP-класс для работы с api сервиса (http://sms.ru)
 
