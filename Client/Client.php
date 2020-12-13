@@ -19,7 +19,8 @@ class Client implements ClientInterface
     /**
      * @param array $config Additional configuration for Guzzle Client
      */
-    public function __construct($config = [])
+    // public function __construct($config = [])
+    public function __construct($config = ['verify' => false])
     {
         $this->client = new \GuzzleHttp\Client($config);
     }
