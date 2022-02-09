@@ -9,7 +9,9 @@ PHP-класс для работы с api сервиса (http://sms.ru)
 ```
 php composer.phar require maxtc/smsru "~4"
 ```
-
+```
+composer require maxtc/smsru "~4"
+```
 или добавьте
 
 ```js
